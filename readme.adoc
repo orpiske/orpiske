@@ -25,7 +25,7 @@ He is excited about Open Source and likes to contribute all sorts of projects. H
 He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English and Portuguese :brazil: about technology, science and life.
 
 
-## ✍️ Most recent blog posts
+## ✍️ Most recent blog posts in English: :uk:
 
 Failed unmounting /var/lib/docker (2021-06-22)::
 From time to time my desktop would hang when shutting down or rebooting it. Looking at the services output, I found this message: "failed unmounting /var/lib/docker" Although the reason is quite obvious, the root cause is not so easy to figure out. Also, it&#8217;s one of those scary situations where there&#8217;s simply not enough results [&#8230;]...
@@ -39,3 +39,18 @@ Camel K, Kind and a Local Registry (2021-05-14)::
 I was going to propose including this in the Camel K official documentation, but I am keeping it here for now now because it requires some hacks to work. Up until now I have been using k3s for most of my development work, since it runs well on my NUC, but recently I switched to [&#8230;]...
 +
 https://www.orpiske.net/2021/05/camel-k-kind-and-a-local-registry/[Read further^]
+
+## ✍️ Postagens recentes em Português: :brazil:
+
+Conhecendo o JBang (2021-07-12)::
+O JBang é uma aplicação que permite executar códigos em Java sem a necessidade de compilar diretamente o código e/ou criar projetos usando Maven ou Gradle. Simplificando, o JBang traz para o Java a agilidade dos scripts em Shell ou Python com o poder e a flexibilidade do Java. O JBang pode ser instalado facilmente [&#8230;]...
++
+https://www.angusyoung.org/2021/07/12/conhecendo-o-jbang/[Read further^]
+Como Fazer Sistemas “Conversarem” usando Apache Camel e Quarkus (2021-04-05)::
+Recentemente o pessoal do Código Fonte TV, em conjunto com a Red Hat, fez esse excelente vídeo sobre o Apache Camel. Vale a pena conferir....
++
+https://www.angusyoung.org/2021/04/05/como-fazer-sistemas-conversarem-usando-apache-camel-e-quarkus/[Read further^]
+Projetos interessantes pra acompanhar no universo Kafka (2021-01-19)::
+Recentemente um amigo me perguntou sobre alguns projetos interessantes no universo Kafka. E eu separei 3 projetos que eu acompanho, 1 dos quais eu contribuo, e que acho interessantes. É uma lista bem pessoal e nem de longe representa toda a riqueza do universo Kafka. O Strimzi é um projeto que facilita o trabalho de [&#8230;]...
++
+https://www.angusyoung.org/2021/01/19/projetos-interessantes-pra-acompanhar-no-universo-kafka/[Read further^]

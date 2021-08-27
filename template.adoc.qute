@@ -16,9 +16,18 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
 
 {bio}
 
-## ✍️ Most recent blog posts
+## ✍️ Most recent blog posts in English: :uk:
 
-{#for post in posts}
+{#for post in postsEn}
+{post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
+{post.description.get()}...
++
+{post.link.get()}[Read further^]
+{/for}
+
+## ✍️ Postagens recentes em Português: :brazil:
+
+{#for post in postsPt}
 {post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
 {post.description.get()}...
 +

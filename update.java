@@ -33,6 +33,17 @@ public class update implements QuarkusApplication {
     @Inject
     Engine qute;
 
+    // static public class Items{}
+
+    public Collection<Item> getPosts(String feedUrl) throws Exception {
+        Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder());
+        RssReader reader = new RssReader();
+
+        Stream<Item> rssFeed = reader.read(feedUrl);
+        sorted.addAll(rssFeed.limit(3).collect(Collectors.toList()));
+        return sorted;
+    }
+
    // @RestClient
    // PlaylistService playlistService;
 
@@ -50,15 +61,13 @@ public class update implements QuarkusApplication {
                 He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English and Portuguese :brazil: about technology, science and life.
                 """;
 
-
-        Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder());
-        RssReader reader = new RssReader();
-        Stream<Item> rssFeed = reader.read("https://www.orpiske.net/feed");
-        sorted.addAll(rssFeed.limit(3).collect(Collectors.toList()));
+        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed");
+        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed");
 
         Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)
-                .data("posts", sorted)
+                .data("postsEn", sortedEn)
+                .data("postsPt", sortedPt)
                 .render());
 
         return 0;
