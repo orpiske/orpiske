@@ -61,8 +61,8 @@ public class update implements QuarkusApplication {
                 He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English :uk: and Portuguese :brazil: about technology, science and life. He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
                 """;
 
-        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed", 3);
-        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed", 1);
+        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed", 1);
+        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed", 2);
 
         Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)

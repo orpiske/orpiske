@@ -31,6 +31,10 @@ Failed unmounting /var/lib/docker (2021-06-22)::
 From time to time my desktop would hang when shutting down or rebooting it. Looking at the services output, I found this message: "failed unmounting /var/lib/docker" Although the reason is quite obvious, the root cause is not so easy to figure out. Also, it&#8217;s one of those scary situations where there&#8217;s simply not enough results [&#8230;]...
 +
 https://www.orpiske.net/2021/06/failed-unmounting-var-lib-docker/[Read further^]
+Too Many Open Files (2021-06-02)::
+If your containers suddenly stop working due to &#8220;Too Many Open Files&#8221;, you can adjust that with the DefaultLimitNOFILE on the SystemD configuration files /etc/systemd/user.conf and /etc/systemd/system.conf. Depending your system setup, you may need to adjust both. In my case I have, DefaultLimitNOFILE=16384:65535 for the user.conf file and DefaultLimitNOFILE=65535:524288 for the system.conf file. Reboot your [&#8230;]...
++
+https://www.orpiske.net/2021/06/too-many-open-files/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
@@ -38,11 +42,3 @@ Conhecendo o JBang (2021-07-12)::
 O JBang é uma aplicação que permite executar códigos em Java sem a necessidade de compilar diretamente o código e/ou criar projetos usando Maven ou Gradle. Simplificando, o JBang traz para o Java a agilidade dos scripts em Shell ou Python com o poder e a flexibilidade do Java. O JBang pode ser instalado facilmente [&#8230;]...
 +
 https://www.angusyoung.org/2021/07/12/conhecendo-o-jbang/[Read further^]
-Como Fazer Sistemas “Conversarem” usando Apache Camel e Quarkus (2021-04-05)::
-Recentemente o pessoal do Código Fonte TV, em conjunto com a Red Hat, fez esse excelente vídeo sobre o Apache Camel. Vale a pena conferir....
-+
-https://www.angusyoung.org/2021/04/05/como-fazer-sistemas-conversarem-usando-apache-camel-e-quarkus/[Read further^]
-Projetos interessantes pra acompanhar no universo Kafka (2021-01-19)::
-Recentemente um amigo me perguntou sobre alguns projetos interessantes no universo Kafka. E eu separei 3 projetos que eu acompanho, 1 dos quais eu contribuo, e que acho interessantes. É uma lista bem pessoal e nem de longe representa toda a riqueza do universo Kafka. O Strimzi é um projeto que facilita o trabalho de [&#8230;]...
-+
-https://www.angusyoung.org/2021/01/19/projetos-interessantes-pra-acompanhar-no-universo-kafka/[Read further^]
