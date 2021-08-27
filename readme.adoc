@@ -1,0 +1,47 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:figure-caption!:
+
+[NOTE]
+====
+image:https://github.com/maxandersen/maxandersen/workflows/Build%20README/badge.svg[Build README,link="https://github.com/maxandersen/maxandersen/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day.
+
+====
+
+Max works as Distinguished Engineer at Red Hat, currently as part of the Quarkus team focusing on Developer joy. 
+
+Developer joy plays a central part of Max’s 15+ years of experience as a professional open-source contributor. Max worked on Hibernate/Hibernate Tools, WildFly, Seam, and Ceylon. Max led the team behind JBoss Tools and Developer Studio until starting work on Quarkus.
+
+Quarkus being a Kubernetes native stack keeps Max busy ensuring developers still experience joy deploying Quarkus applications to Kubernetes platforms like OpenShift.
+
+Max has a keen interest in moving the Java ecosystem forward and making it more accessible.
+To that end he created https://jbang.dev[JBang] a tool to bring back developer joy to Java and works closely with teams defining and exploring making native image for Java a reality using GraalVM/Mandrel, Leyden and Quarkus.
+
+Max also co-hosts the weekly video podcast called https://quarkus.io/insights[Quarkus Insights] and he can be found on twitter as https://twitter.com/@maxandersen[@maxandersen]
+
+
+## ✍️ Most recent blog posts
+
+Season 3 and 60th Insights episode (2021-08-20)::
+After a summer break and little bit of COVID-19 delay, we will finally have the 60th(!) Quarkus Insights episode on Monday the 23rd August. For those who don’t know, Quarkus Insights is a (almost) weekly video/audio podcast where we host people from all parts of the Quarkiverse to sit down......
++
+https://quarkus.io/blog/60th-quarkus-insights/[Read further^]
+jbang everywhere! (2020-03-23)::
+Earlier this year I posted about a small utility called jbang. A utilitiy that lets you get started working with java with zero friction and just run your code as-is....
++
+https://xam.dk/blog/jbang-everywhere/[Read further^]
+Using Eclipse from the Command line on OSX (2020-01-12)::
+If you want to open a file or a project with your favorite editor or IDE you might be doing something like:...
++
+https://xam.dk/blog/using-eclipse-from-commandline/[Read further^]
+Unleashing the scripting powers of Java (2020-01-14)::
+I made a "thing" over this holiday break - a small utility called jbang that you can use to run single file java files with built-in dependency fetching....
++
+https://xam.dk/blog/unleasing-the-scripting-powers-of-java/[Read further^]

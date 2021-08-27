@@ -1,0 +1,27 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:figure-caption!:
+
+[NOTE]
+====
+image:https://github.com/maxandersen/maxandersen/workflows/Build%20README/badge.svg[Build README,link="https://github.com/maxandersen/maxandersen/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day.
+
+====
+
+{bio}
+
+## ✍️ Most recent blog posts
+
+{#for post in posts}
+{post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
+{post.description.get()}...
++
+{post.link.get()}[Read further^]
+{/for}
