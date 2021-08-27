@@ -14,33 +14,28 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
  This profile is automatically generated each day using https://quarkus.io with https://jbang.dev - see https://github.com/maxandersen/maxandersen/blob/master/update.java[update.java].
 ====
 
-Max works as Distinguished Engineer at Red Hat, currently as part of the Quarkus team focusing on Developer joy. 
+Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to Apache Camel.
 
-Developer joy plays a central part of Max’s 15+ years of experience as a professional open-source contributor. Max worked on Hibernate/Hibernate Tools, WildFly, Seam, and Ceylon. Max led the team behind JBoss Tools and Developer Studio until starting work on Quarkus.
+He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate about these topics.
 
-Quarkus being a Kubernetes native stack keeps Max busy ensuring developers still experience joy deploying Quarkus applications to Kubernetes platforms like OpenShift.
+Posts about his experiences and troubles with computers, ocasionally appear in his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
 
-Max has a keen interest in moving the Java ecosystem forward and making it more accessible.
-To that end he created https://jbang.dev[JBang] a tool to bring back developer joy to Java and works closely with teams defining and exploring making native image for Java a reality using GraalVM/Mandrel, Leyden and Quarkus.
+He is excited about Open Source and likes to contribute all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to Fedora, Gentoo, Eclipse Paho, Apache ActiveMQ and others.
 
-Max also co-hosts the weekly video podcast called https://quarkus.io/insights[Quarkus Insights] and he can be found on twitter as https://twitter.com/@maxandersen[@maxandersen]
+He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English and Portuguese :brazil: about technology, science and life.
 
 
 ## ✍️ Most recent blog posts
 
-Season 3 and 60th Insights episode (2021-08-20)::
-After a summer break and little bit of COVID-19 delay, we will finally have the 60th(!) Quarkus Insights episode on Monday the 23rd August. For those who don’t know, Quarkus Insights is a (almost) weekly video/audio podcast where we host people from all parts of the Quarkiverse to sit down......
+Failed unmounting /var/lib/docker (2021-06-22)::
+From time to time my desktop would hang when shutting down or rebooting it. Looking at the services output, I found this message: "failed unmounting /var/lib/docker" Although the reason is quite obvious, the root cause is not so easy to figure out. Also, it&#8217;s one of those scary situations where there&#8217;s simply not enough results [&#8230;]...
 +
-https://quarkus.io/blog/60th-quarkus-insights/[Read further^]
-jbang everywhere! (2020-03-23)::
-Earlier this year I posted about a small utility called jbang. A utilitiy that lets you get started working with java with zero friction and just run your code as-is....
+https://www.orpiske.net/2021/06/failed-unmounting-var-lib-docker/[Read further^]
+Too Many Open Files (2021-06-02)::
+If your containers suddenly stop working due to &#8220;Too Many Open Files&#8221;, you can adjust that with the DefaultLimitNOFILE on the SystemD configuration files /etc/systemd/user.conf and /etc/systemd/system.conf. Depending your system setup, you may need to adjust both. In my case I have, DefaultLimitNOFILE=16384:65535 for the user.conf file and DefaultLimitNOFILE=65535:524288 for the system.conf file. Reboot your [&#8230;]...
 +
-https://xam.dk/blog/jbang-everywhere/[Read further^]
-Using Eclipse from the Command line on OSX (2020-01-12)::
-If you want to open a file or a project with your favorite editor or IDE you might be doing something like:...
+https://www.orpiske.net/2021/06/too-many-open-files/[Read further^]
+Camel K, Kind and a Local Registry (2021-05-14)::
+I was going to propose including this in the Camel K official documentation, but I am keeping it here for now now because it requires some hacks to work. Up until now I have been using k3s for most of my development work, since it runs well on my NUC, but recently I switched to [&#8230;]...
 +
-https://xam.dk/blog/using-eclipse-from-commandline/[Read further^]
-Unleashing the scripting powers of Java (2020-01-14)::
-I made a "thing" over this holiday break - a small utility called jbang that you can use to run single file java files with built-in dependency fetching....
-+
-https://xam.dk/blog/unleasing-the-scripting-powers-of-java/[Read further^]
+https://www.orpiske.net/2021/05/camel-k-kind-and-a-local-registry/[Read further^]

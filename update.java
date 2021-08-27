@@ -39,48 +39,29 @@ public class update implements QuarkusApplication {
     public int run(String... args) throws Exception {
 
         String bio = """
-                Max works as Distinguished Engineer at Red Hat, currently as part of the Quarkus team focusing on Developer joy.\s
-                        
-                Developer joy plays a central part of Max’s 15+ years of experience as a professional open-source contributor. Max worked on Hibernate/Hibernate Tools, WildFly, Seam, and Ceylon. Max led the team behind JBoss Tools and Developer Studio until starting work on Quarkus.
-                        
-                Quarkus being a Kubernetes native stack keeps Max busy ensuring developers still experience joy deploying Quarkus applications to Kubernetes platforms like OpenShift.
-                        
-                Max has a keen interest in moving the Java ecosystem forward and making it more accessible.
-                To that end he created https://jbang.dev[JBang] a tool to bring back developer joy to Java and works closely with teams defining and exploring making native image for Java a reality using GraalVM/Mandrel, Leyden and Quarkus.
-                        
-                Max also co-hosts the weekly video podcast called https://quarkus.io/insights[Quarkus Insights] and he can be found on twitter as https://twitter.com/@maxandersen[@maxandersen]
+                Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to Apache Camel.
+
+                He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate about these topics.
+
+                Posts about his experiences and troubles with computers, ocasionally appear in his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
+
+                He is excited about Open Source and likes to contribute all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to Fedora, Gentoo, Eclipse Paho, Apache ActiveMQ and others.
+
+                He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English and Portuguese :brazil: about technology, science and life.
                 """;
 
 
         Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder());
         RssReader reader = new RssReader();
-        Stream<Item> rssFeed = reader.read("https://xam.dk/blog/feed.atom");
+        Stream<Item> rssFeed = reader.read("https://www.orpiske.net/feed");
         sorted.addAll(rssFeed.limit(3).collect(Collectors.toList()));
-
-        sorted.addAll(reader.read("https://quarkus.io/feed.xml").filter(p->p.getAuthor().get().contains("/maxandersen")).limit(3).collect(Collectors.toList()));
 
         Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)
                 .data("posts", sorted)
-               // .data("video", video)
                 .render());
 
         return 0;
     }
-
- static public class Items{
-
- }
-     @RegisterRestClient(baseUri = "https://www.googleapis.com")
-    public static interface PlaylistService {
-
-        @GET
-        @javax.ws.rs.Path("/youtube/v3/playlistItems")
-        List<Items> playlist(@QueryParam("part") String part,
-                          @QueryParam("maxResults") int maxResults,
-                          @QueryParam("playlistId") String playListId,
-                          @QueryParam("key") String key);
-    }
-
-    }
+}
 
