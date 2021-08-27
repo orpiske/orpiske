@@ -5,14 +5,13 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-
+:hide-uri-scheme:
 :figure-caption!:
 
 [NOTE]
 ====
-image:https://github.com/maxandersen/maxandersen/workflows/Build%20README/badge.svg[Build README,link="https://github.com/maxandersen/maxandersen/actions?query=workflow%3A%22Update+README%22"]
- This profile is automatically generated each day.
-
+image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge.svg[Build README,link="https://github.com/maxandersen/maxandersen/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day using https://quarkus.io with https://jbang.dev - see https://github.com/maxandersen/maxandersen/blob/master/update.java[update.java].
 ====
 
 Max works as Distinguished Engineer at Red Hat, currently as part of the Quarkus team focusing on Developer joy. 
