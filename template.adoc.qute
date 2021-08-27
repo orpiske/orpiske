@@ -16,7 +16,7 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
 
 {bio}
 
-## ✍️ Most recent blog posts in English: :uk:
+## ✍️ Most recent blog posts in English:
 
 {#for post in postsEn}
 {post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
@@ -25,7 +25,7 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
 {post.link.get()}[Read further^]
 {/for}
 
-## ✍️ Postagens recentes em Português: :brazil:
+## ✍️ Postagens recentes em Português:
 
 {#for post in postsPt}
 {post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
