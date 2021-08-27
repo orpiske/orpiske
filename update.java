@@ -50,7 +50,7 @@ public class update implements QuarkusApplication {
     public int run(String... args) throws Exception {
 
         String bio = """
-                Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to Apache Camel :camel:.
+                Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to https://camel.apache.org[Apache Camel] :camel:.
 
                 He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate :heart: about these topics.
 
