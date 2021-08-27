@@ -14,15 +14,15 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
  This profile is automatically generated each day using https://quarkus.io with https://jbang.dev - see https://github.com/maxandersen/maxandersen/blob/master/update.java[update.java].
 ====
 
-Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to Apache Camel.
+Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is currently focusing his work on all things related to Apache Camel :camel:.
 
-He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate about these topics.
+He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate :heart: about these topics.
 
 Posts about his experiences and troubles with computers, ocasionally appear in his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
 
-He is excited about Open Source and likes to contribute all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to Fedora, Gentoo, Eclipse Paho, Apache ActiveMQ and others.
+He is excited about Open Source and contributes all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to Fedora, Gentoo, Eclipse Paho, Apache ActiveMQ and others.
 
-He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English and Portuguese :brazil: about technology, science and life.
+He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English :uk: and Portuguese :brazil: about technology, science and life. He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
 
 
 ## ✍️ Most recent blog posts in English: :uk:
