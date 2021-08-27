@@ -31,14 +31,6 @@ Failed unmounting /var/lib/docker (2021-06-22)::
 From time to time my desktop would hang when shutting down or rebooting it. Looking at the services output, I found this message: "failed unmounting /var/lib/docker" Although the reason is quite obvious, the root cause is not so easy to figure out. Also, it&#8217;s one of those scary situations where there&#8217;s simply not enough results [&#8230;]...
 +
 https://www.orpiske.net/2021/06/failed-unmounting-var-lib-docker/[Read further^]
-Too Many Open Files (2021-06-02)::
-If your containers suddenly stop working due to &#8220;Too Many Open Files&#8221;, you can adjust that with the DefaultLimitNOFILE on the SystemD configuration files /etc/systemd/user.conf and /etc/systemd/system.conf. Depending your system setup, you may need to adjust both. In my case I have, DefaultLimitNOFILE=16384:65535 for the user.conf file and DefaultLimitNOFILE=65535:524288 for the system.conf file. Reboot your [&#8230;]...
-+
-https://www.orpiske.net/2021/06/too-many-open-files/[Read further^]
-Camel K, Kind and a Local Registry (2021-05-14)::
-I was going to propose including this in the Camel K official documentation, but I am keeping it here for now now because it requires some hacks to work. Up until now I have been using k3s for most of my development work, since it runs well on my NUC, but recently I switched to [&#8230;]...
-+
-https://www.orpiske.net/2021/05/camel-k-kind-and-a-local-registry/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 

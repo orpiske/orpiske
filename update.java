@@ -35,12 +35,12 @@ public class update implements QuarkusApplication {
 
     // static public class Items{}
 
-    public Collection<Item> getPosts(String feedUrl) throws Exception {
+    public Collection<Item> getPosts(String feedUrl, int limit) throws Exception {
         Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder());
         RssReader reader = new RssReader();
 
         Stream<Item> rssFeed = reader.read(feedUrl);
-        sorted.addAll(rssFeed.limit(3).collect(Collectors.toList()));
+        sorted.addAll(rssFeed.limit(limit).collect(Collectors.toList()));
         return sorted;
     }
 
@@ -61,8 +61,8 @@ public class update implements QuarkusApplication {
                 He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English :uk: and Portuguese :brazil: about technology, science and life. He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
                 """;
 
-        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed");
-        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed");
+        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed", 3);
+        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed", 1);
 
         Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)
