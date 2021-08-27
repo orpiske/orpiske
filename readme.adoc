@@ -18,7 +18,7 @@ Otavio works as a Sr. Software Engineer in the Red Hat Integration team. He is c
 
 He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate :heart: about these topics.
 
-Posts about his experiences and troubles with computers, ocasionally appear in his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
+Posts about his experiences and troubles with computers, ocasionally appear on his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
 
 He is excited about Open Source and contributes all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to https://getfedora.org[Fedora], https://gentoo.org[Gentoo], https://www.eclipse.org/paho/[Eclipse Paho], https://activemq.apache.org[Apache ActiveMQ] and others.
 
