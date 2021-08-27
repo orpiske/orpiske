@@ -7,36 +7,23 @@
 //DEPS io.quarkus:quarkus-rest-client-reactive-jackson
 
 //JAVA 16+
-import com.fasterxml.jackson.databind.JsonNode;
-import io.quarkus.runtime.QuarkusApplication;
-import io.quarkus.runtime.annotations.QuarkusMain;
 
 import com.apptastic.rssreader.Item;
 import com.apptastic.rssreader.RssReader;
 import io.quarkus.qute.Engine;
-import io.quarkus.qute.EvalContext;
-import io.quarkus.qute.ReflectionValueResolver;
-import io.quarkus.qute.ValueResolver;
+import io.quarkus.runtime.QuarkusApplication;
+import io.quarkus.runtime.annotations.QuarkusMain;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
-import org.eclipse.microprofile.rest.client.inject.RestClient;
 
-import javax.enterprise.con text.ApplicationScoped;
 import javax.inject.Inject;
-import javax.json.Json;
 import javax.ws.rs.GET;
 import javax.ws.rs.QueryParam;
-import javax.ws.rs.client.ClientBuilder;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 import java.util.PriorityQueue;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionStage;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
