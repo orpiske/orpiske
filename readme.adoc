@@ -39,6 +39,6 @@ https://www.orpiske.net/2021/10/intel-wi-fi-6-ax-200-issues/[Read further^]
 ## ✍️ Postagens recentes em Português:
 
 Conhecendo o JBang (2021-07-12)::
-O JBang Ã© uma aplicaÃ§Ã£o que permite executar cÃ³digos em Java sem a necessidade de compilar diretamente o cÃ³digo e/ou criar projetos usando Maven ou Gradle. Simplificando, o JBang traz para o Java a agilidade dos scripts em Shell ou Python com o poder e a flexibilidade do Java. O JBang pode ser instalado facilmente [&#8230;]...
+O JBang é uma aplicação que permite executar códigos em Java sem a necessidade de compilar diretamente o código e/ou criar projetos usando Maven ou Gradle. Simplificando, o JBang traz para o Java a agilidade dos scripts em Shell ou Python com o poder e a flexibilidade do Java. O JBang pode ser instalado facilmente [&#8230;]...
 +
 https://www.angusyoung.org/2021/07/12/conhecendo-o-jbang/[Read further^]
