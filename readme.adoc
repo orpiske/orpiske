@@ -38,7 +38,7 @@ https://www.orpiske.net/2021/10/intel-wi-fi-6-ax-200-issues/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Conhecendo o JBang (2021-07-12)::
-O JBang é uma aplicação que permite executar códigos em Java sem a necessidade de compilar diretamente o código e/ou criar projetos usando Maven ou Gradle. Simplificando, o JBang traz para o Java a agilidade dos scripts em Shell ou Python com o poder e a flexibilidade do Java. O JBang pode ser instalado facilmente [&#8230;]...
+Camel, Camel K e Kamelets no Tchelinux (2021-11-14)::
+Recentemente eu tive a honra de participar do super evento Tchelinux (um evento online com mais de 40 horas de conteúdo gratuito) . Na palestra que eu preparei para este evento eu falarei um pouquinho sobre os desafios de integração de sistemas na era da computação em nuvem. Nessa palestra eu apresento o Apache Camel, [&#8230;]...
 +
-https://www.angusyoung.org/2021/07/12/conhecendo-o-jbang/[Read further^]
+https://www.angusyoung.org/2021/11/14/camel-camel-k-e-kamelets-no-tchelinux/[Read further^]
