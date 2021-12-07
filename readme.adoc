@@ -28,7 +28,7 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021], speakin
 ## ✍️ Most recent blog posts in English:
 
 Configuring IntelliJ to work with Podman (2021-10-20)::
-One of the things I missed when I migrated from Docker to Podman was the builtin integration in IntelliJ. As more users migrate to Podman, I believe it will be supported, since there seems to be interest for it. In the mean time, it&#8217;s possible to make IntelliJ work well with it with just a [&#8230;]...
+Update: IntelliJ Idea version 2021.3 now supports Podman out of the box. If you are using that version, these may not be needed anymore. One of the things I missed when I migrated from Docker to Podman was the builtin integration in IntelliJ. As more users migrate to Podman, I believe it will be supported, [&#8230;]...
 +
 https://www.orpiske.net/2021/10/configuring-intellij-to-work-with-podman/[Read further^]
 Intel Wi-Fi 6 AX 200 issues (2021-10-05)::
