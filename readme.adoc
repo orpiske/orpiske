@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021], speakin
 
 ## ✍️ Most recent blog posts in English:
 
+Slow Zsh shell with Git? (2022-01-22)::
+I have a few large git repositories that were very slow when I accessed them from my Mac. I tried to solve the problem with different things: running git gc, disabling plugins, running OS X maintenance with Onyx, but nothing was solving the problem. It seems that the problem is caused by OMZ reading the [&#8230;]...
++
+https://www.orpiske.net/2022/01/slow-zsh-shell-with-git/[Read further^]
 Configuring IntelliJ to work with Podman (2021-10-20)::
 Update: IntelliJ Idea version 2021.3 now supports Podman out of the box. If you are using that version, these may not be needed anymore. One of the things I missed when I migrated from Docker to Podman was the builtin integration in IntelliJ. As more users migrate to Podman, I believe it will be supported, [&#8230;]...
 +
 https://www.orpiske.net/2021/10/configuring-intellij-to-work-with-podman/[Read further^]
-Intel Wi-Fi 6 AX 200 issues (2021-10-05)::
-Apparently a recent upgrade of the Linux firmware packages has caused some Intel Wi-fi 6 AX 200 cards to stop working on Linux. These devices can be found on some motherboards like the Gigabyte X570 I AORUS PRO WIFI/X570 I. For some reason, kernel/device/etc complains that the version of the firmware cannot be loaded. When [&#8230;]...
-+
-https://www.orpiske.net/2021/10/intel-wi-fi-6-ax-200-issues/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
