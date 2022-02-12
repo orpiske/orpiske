@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021], speakin
 
 ## ✍️ Most recent blog posts in English:
 
+Software-based KVM switch (2022-02-11)::
+Note: this text was mostly translated automatically from the original post in Portuguese 2 years ago. In this post I will show you how to make a KVM-switch for Linux using only software and some compatible hardware. I am using Fedora as my Linux distribution, but I believe the steps would be similar for Ubuntu, [&#8230;]...
++
+https://www.orpiske.net/2022/02/software-based-kvm-switch/[Read further^]
 JChampions Conference Talks (2022-01-26)::
 For the last few days I have been attending the online JChampions Conference. This conference is organized and featured by Java Champions (widely recognized members of the Java community). As I promised on Twitter, I selected a couple of talks from the event that I liked very much (I almost feel guilty of selecting just [&#8230;]...
 +
 https://www.orpiske.net/2022/01/jchampions-conference-talks/[Read further^]
-Slow Zsh shell with Git? (2022-01-22)::
-I have a few large git repositories that were very slow when I accessed them from my Mac. I tried to solve the problem with different things: running git gc, disabling plugins, running OS X maintenance with Onyx, but nothing was solving the problem. It seems that the problem is caused by OMZ reading the [&#8230;]...
-+
-https://www.orpiske.net/2022/01/slow-zsh-shell-with-git/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
