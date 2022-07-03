@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021], speakin
 
 ## ✍️ Most recent blog posts in English:
 
+Try Apache Maven Daemon (2022-07-02)::
+Have nothing better to do this &#8211; long, if you are in Czech Republic &#8211; weekend? Why not try Apache Maven Daemon, instead? Well, sadly if you are developing your Java code on an Apple Silicon Mac, there&#8217;s no ARM build yet due to infrastructure issues on Github. Thankfully, this is open source and we [&#8230;]...
++
+https://www.orpiske.net/2022/07/try-apache-maven-daemon/[Read further^]
 Fixing Logitech MX Keys on MacOS (2022-02-18)::
 If you are using a @Logitech MX Keys on multiple OSes you will notice that it prints a few different characters on MacOS than it does on Linux and Windows. I have never found a way to force it to behave the same way on all operating systems. Although you can tweak a bit using [&#8230;]...
 +
 https://www.orpiske.net/2022/02/fixing-logitech-mx-keys-on-macos/[Read further^]
-Software-based KVM switch (2022-02-11)::
-Note: this text was mostly translated automatically from the original post in Portuguese 2 years ago. In this post I will show you how to make a KVM-switch for Linux using only software and some compatible hardware. I am using Fedora as my Linux distribution, but I believe the steps would be similar for Ubuntu, [&#8230;]...
-+
-https://www.orpiske.net/2022/02/software-based-kvm-switch/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
