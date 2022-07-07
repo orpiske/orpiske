@@ -38,7 +38,7 @@ https://www.orpiske.net/2022/02/fixing-logitech-mx-keys-on-macos/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Camel, Camel K e Kamelets no Tchelinux (2021-11-14)::
-Recentemente eu tive a honra de participar do super evento Tchelinux (um evento online com mais de 40 horas de conteúdo gratuito) . Na palestra que eu preparei para este evento eu falarei um pouquinho sobre os desafios de integração de sistemas na era da computação em nuvem. Nessa palestra eu apresento o Apache Camel, [&#8230;]...
+Automatize a investigação de bugs com git bisect (2022-07-06)::
+Muitas vezes bugs acabam sendo introduzidos inadvertidamente em um projeto mesmo após passarem pelos testes unitários, eventualmente sendo descobertos somente após a execução de testes de integração, performance ou e2e na CI. Nem sempre é fácil encontrar qual foi o commit causador do problema, dependendo do volume de alterações do projeto, práticas internas de engenharia [&#8230;]...
 +
-https://www.angusyoung.org/2021/11/14/camel-camel-k-e-kamelets-no-tchelinux/[Read further^]
+https://www.angusyoung.org/2022/07/06/automatize-a-investigacao-de-bugs-com-git-bisect/[Read further^]
