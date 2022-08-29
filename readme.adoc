@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021], speakin
 
 ## ✍️ Most recent blog posts in English:
 
+Java Development on Haiku (2022-08-28)::
+Haiku is an open source operating system inspired by BeOS, an operating system developed by Be Inc in the 90s. Although it&#8217;s still in a beta phase, Haiku is surprisingly fast and responsible. You can find many reviews on the web about it. During the last few days I have been playing with it on [&#8230;]...
++
+https://www.orpiske.net/2022/08/java-development-on-haiku/[Read further^]
 Try Apache Maven Daemon (2022-07-02)::
 Have nothing better to do this &#8211; long, if you are in Czech Republic &#8211; weekend? Why not try Apache Maven Daemon, instead? Well, sadly if you are developing your Java code on an Apple Silicon Mac, there&#8217;s no ARM build yet due to infrastructure issues on Github. Thankfully, this is open source and we [&#8230;]...
 +
 https://www.orpiske.net/2022/07/try-apache-maven-daemon/[Read further^]
-Fixing Logitech MX Keys on MacOS (2022-02-18)::
-If you are using a @Logitech MX Keys on multiple OSes you will notice that it prints a few different characters on MacOS than it does on Linux and Windows. I have never found a way to force it to behave the same way on all operating systems. Although you can tweak a bit using [&#8230;]...
-+
-https://www.orpiske.net/2022/02/fixing-logitech-mx-keys-on-macos/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
