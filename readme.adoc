@@ -32,7 +32,7 @@ Haiku is an open source operating system inspired by BeOS, an operating system d
 +
 https://www.orpiske.net/2022/08/java-development-on-haiku/[Read further^]
 Try Apache Maven Daemon (2022-07-02)::
-Have nothing better to do this &#8211; long, if you are in Czech Republic &#8211; weekend? Why not try Apache Maven Daemon, instead? Well, sadly if you are developing your Java code on an Apple Silicon Mac, there&#8217;s no ARM build yet due to infrastructure issues on Github. Thankfully, this is open source and we [&#8230;]...
+Have nothing better to do this &#8211; long, if you are in Czech Republic &#8211; weekend? Why not try Apache Maven Daemon, instead? Updates: &#8211; 2022-09-23: the script was updated to Maven Daemon version 0.8.1. Well, sadly if you are developing your Java code on an Apple Silicon Mac, there&#8217;s no ARM build yet due [&#8230;]...
 +
 https://www.orpiske.net/2022/07/try-apache-maven-daemon/[Read further^]
 
