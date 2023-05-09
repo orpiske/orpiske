@@ -58,7 +58,7 @@ public class update implements QuarkusApplication {
 
                 He is excited about Open Source and contributes all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to https://getfedora.org[Fedora], https://gentoo.org[Gentoo], https://www.eclipse.org/paho/[Eclipse Paho], https://activemq.apache.org[Apache ActiveMQ] and others.
 
-                He can be found on twitter as https://twitter.com/otavio021[@otavio021], speaking in English :uk: and Portuguese :brazil: about technology, science and life. He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
+                He can be found on twitter as https://twitter.com/otavio021[@otavio021] and on Mastodon as https://toot.community/@orpiske[@orpiske@toot.community], speaking in English :uk: and Portuguese :brazil: about technology, science and life. He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
                 """;
 
         Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed", 1);
