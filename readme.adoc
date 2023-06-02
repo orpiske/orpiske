@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021] and on M
 
 ## ✍️ Most recent blog posts in English:
 
+Hunting performance monsters on the back of a Camel (2023-06-01)::
+Last week I wrote a blog post for the Apache Camel blog where I discussed about the performance improvements for Camel 4. Check it out to get an insight about what to expect....
++
+https://www.orpiske.net/2023/06/hunting-performance-monsters-on-the-back-of-a-camel/[Read further^]
 Controlling a PC via HomeKit: revisited (2022-12-22)::
 A little more than three years ago I wrote a series of posts describing how to use Apple&#8217;s HomeKit to control the power of a desktop (or home server). The idea was to implement a solution that allowed me to turn the computer on or off using my iOS / iPadOS devices. The posts described [&#8230;]...
 +
 https://www.orpiske.net/2022/12/controlling-a-pc-via-homekit-revisited/[Read further^]
-Social Networks (2022-11-05)::
-It seems like a lot of the folks in the tech community is either moving away from Twitter or creating a secondary account on Mastodon. I did the same, so now I also have an account on Mastodon. I&#8217;ll continue using Twitter and LinkedIn, but I&#8217;ll see how things progress on each one of them [&#8230;]...
-+
-https://www.orpiske.net/2022/11/social-networks/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
