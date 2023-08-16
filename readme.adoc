@@ -27,14 +27,14 @@ He can be found on twitter as https://twitter.com/otavio021[@otavio021] and on M
 
 ## ✍️ Most recent blog posts in English:
 
+Camel 4: what’s new (2023-08-15)::
+If you are interested in what&#8217;s new for Camel 4 and what the roadmap for 2023 looks like, please check this blog post on the official Apache Camel blog....
++
+https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 Hunting performance monsters on the back of a Camel (2023-06-01)::
 Last week I wrote a blog post for the Apache Camel blog where I discussed about the performance improvements for Camel 4. Check it out to get an insight about what to expect....
 +
 https://www.orpiske.net/2023/06/hunting-performance-monsters-on-the-back-of-a-camel/[Read further^]
-Controlling a PC via HomeKit: revisited (2022-12-22)::
-A little more than three years ago I wrote a series of posts describing how to use Apple&#8217;s HomeKit to control the power of a desktop (or home server). The idea was to implement a solution that allowed me to turn the computer on or off using my iOS / iPadOS devices. The posts described [&#8230;]...
-+
-https://www.orpiske.net/2022/12/controlling-a-pc-via-homekit-revisited/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
