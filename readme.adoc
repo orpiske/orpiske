@@ -40,7 +40,7 @@ https://www.orpiske.net/2023/06/hunting-performance-monsters-on-the-back-of-a-ca
 
 ## ✍️ Postagens recentes em Português:
 
-Automatize a investigação de bugs com git bisect (2022-07-06)::
-Muitas vezes bugs acabam sendo introduzidos inadvertidamente em um projeto mesmo após passarem pelos testes unitários, eventualmente sendo descobertos somente após a execução de testes de integração, performance ou e2e na CI. Nem sempre é fácil encontrar qual foi o commit causador do problema, dependendo do volume de alterações do projeto, práticas internas de engenharia [&#8230;]...
+Minha primeira vez em um podcast (2023-11-22)::
+Recentemente tive a oportunidade de participar do excelente podcast Dev Sem Fronteiras, aonde pude contar um pouquinho da experiência de morar e trabalhar em #Brno, causos da vida na República Checa e um pouco do caminho até aqui. Você pode conferir o episódio do podcast nesse link aqui....
 +
-https://www.angusyoung.org/2022/07/06/automatize-a-investigacao-de-bugs-com-git-bisect/[Read further^]
+https://www.angusyoung.org/2023/11/22/minha-primeira-vez-em-um-podcast/[Read further^]
