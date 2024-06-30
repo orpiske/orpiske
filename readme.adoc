@@ -40,7 +40,7 @@ https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Minha primeira vez em um podcast (2023-11-22)::
-Recentemente tive a oportunidade de participar do excelente podcast Dev Sem Fronteiras, aonde pude contar um pouquinho da experiência de morar e trabalhar em #Brno, causos da vida na República Checa e um pouco do caminho até aqui. Você pode conferir o episódio do podcast nesse link aqui....
+Inteligência artificial com Java: primeiros passos (2024-06-29)::
+Quer começar a trabalhar com inteligência artificial (IA) utilizando Java, mas não sabe por onde começar? Nesse post, vou te guiar através dos primeiros passos para começar a explorar o mundo da IA com Java. Infraestrutura: escolha sua opção Antes de começar a trabalhar com IA em Java, é necessário resolver o problema da infraestrutura. [&#8230;]...
 +
-https://www.angusyoung.org/2023/11/22/minha-primeira-vez-em-um-podcast/[Read further^]
+https://www.angusyoung.org/2024/06/29/inteligencia-artificial-com-java-primeiros-passos/[Read further^]
