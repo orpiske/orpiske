@@ -40,7 +40,7 @@ https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Inteligência artificial com Java: primeiros passos (2024-06-29)::
-Quer começar a trabalhar com inteligência artificial (IA) utilizando Java, mas não sabe por onde começar? Nesse post, vou te guiar através dos primeiros passos para começar a explorar o mundo da IA. Embora o foco seja, especificamente, em mostrar como desenvolvedores Java podem começar a criar aplicações inteligentes, grande parte das dicas e detalhes [&#8230;]...
+Opções para acessar ou servir um modelo (2024-07-01)::
+Você escolheu servir seu próprio modelo de inteligência artificial! Agora, você precisa escolher como deseja servir esse modelo. A maneira mais comum de acessar um modelo é através de API. Até o presente momento, acessar os LLMs nativamente usando a JVM não é algo muito comum, embora existam projetos como o ONNXRuntime trabalhando nesse problema. [&#8230;]...
 +
-https://www.angusyoung.org/2024/06/29/inteligencia-artificial-com-java-primeiros-passos/[Read further^]
+https://www.angusyoung.org/2024/07/01/servindo-o-seu-proprio-modelo-opcoes-interessantes/[Read further^]
