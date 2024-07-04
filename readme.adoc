@@ -40,7 +40,7 @@ https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Opções para acessar ou servir um modelo (2024-07-01)::
-Você escolheu servir seu próprio modelo de inteligência artificial! Agora, você precisa escolher como deseja servir esse modelo. A maneira mais comum de acessar um modelo é através de API. Até o presente momento, acessar os LLMs nativamente usando a JVM não é algo muito comum, embora existam projetos como o ONNXRuntime trabalhando nesse problema. [&#8230;]...
+Inteligência artificial com Java: escolhendo o modelo adequado (2024-07-03)::
+Agora que você escolheu como servir seu modelo, é hora de escolher qual modelo servir. Isso pode parecer intimidante, mas não se preocupe! Aqui estão algumas dicas importantes para ajudá-lo a tomar uma decisão informada. Verifique se o modelo é verdadeiramente aberto &#160;Embora muitas empresas usem o termo &#8220;Open Source&#8221; para descrever seus modelos, é [&#8230;]...
 +
-https://www.angusyoung.org/2024/07/01/servindo-o-seu-proprio-modelo-opcoes-interessantes/[Read further^]
+https://www.angusyoung.org/2024/07/03/inteligencia-artificial-com-java-escolhendo-o-modelo-adequado/[Read further^]
