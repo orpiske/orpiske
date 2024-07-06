@@ -40,7 +40,7 @@ https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Inteligência artificial com Java: escolhendo o modelo adequado (2024-07-03)::
-Agora que você escolheu como servir seu modelo, é hora de escolher qual modelo servir. Isso pode parecer intimidante, mas não se preocupe! Aqui estão algumas dicas importantes para ajudá-lo a tomar uma decisão informada. Verifique se o modelo é verdadeiramente aberto &#160;Embora muitas empresas usem o termo &#8220;Open Source&#8221; para descrever seus modelos, é [&#8230;]...
+Inteligência artificial com Java: projetos (2024-07-05)::
+Agora que você resolveu os requisitos de hardware, definiu como servir o modelo e escolheu o modelo adequado, é hora de usar Java para interagir com os modelos. Complexidade das aplicações inteligentes Um dos desafios de criar aplicações inteligentes se deve ao fato de que os dados utilizados para treinar os modelos são desatualizados e [&#8230;]...
 +
-https://www.angusyoung.org/2024/07/03/inteligencia-artificial-com-java-escolhendo-o-modelo-adequado/[Read further^]
+https://www.angusyoung.org/2024/07/05/inteligencia-artificial-com-java-projetos/[Read further^]
