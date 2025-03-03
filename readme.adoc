@@ -29,18 +29,18 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
+Introducing Wanaku (2025-03-03)::
+Today me and my colleagues are introducing Wanaku, the first open-source Model Context Protocol (MCP) Router! Wanaku aims to provide unified access, routing &#38; resource management capabilities for your organization and your AI Agents. The project is built on the solid foundations provided by Apache Camel and Quarkus. Our main goal is to provide a [&#8230;]...
++
+https://www.orpiske.net/2025/03/introducing-wanaku/[Read further^]
 Stream search engine (2024-01-19)::
 If you are looking for a stream URL (i.e.: for radios) and don&#8217;t know where to look for it, you can use this StreamURL Search engine....
 +
 https://www.orpiske.net/2024/01/stream-search-engine/[Read further^]
-Camel 4: what’s new (2023-08-15)::
-If you are interested in what&#8217;s new for Camel 4 and what the roadmap for 2023 looks like, please check this blog post on the official Apache Camel blog....
-+
-https://www.orpiske.net/2023/08/camel-4-whats-new/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Inteligência artificial com Java: projetos (2024-07-05)::
-Agora que você resolveu os requisitos de hardware, definiu como servir o modelo e escolheu o modelo adequado, é hora de usar Java para interagir com os modelos. Complexidade das aplicações inteligentes Um dos desafios de criar aplicações inteligentes se deve ao fato de que os dados utilizados para treinar os modelos são desatualizados e [&#8230;]...
+Apresentando: Wanaku (2025-03-03)::
+Hoje estamos apresentando o projeto Wanaku, um roteador de código aberto para o protocolo MCP (Model Context Protocol). O Wanaku tem como objetivo fornecer acesso unificado, roteamento e recursos de gerenciamento para sua organização e seus agentes de IA. O projeto é construído sobre as bases sólidas fornecidas pelo Apache Camel e Quarkus. Nosso principal [&#8230;]...
 +
-https://www.angusyoung.org/2024/07/05/inteligencia-artificial-com-java-projetos/[Read further^]
+https://www.angusyoung.org/2025/03/03/apresentando-wanaku/[Read further^]
