@@ -29,14 +29,14 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
+Programmatic Keycloak Configuration for Quarkus Integration Tests (2025-08-01)::
+Programmatic Keycloak Configuration for Quarkus Integration Tests Quarkus offers an incredible testing framework, and its devservices feature is fantastic for getting applications up and running quickly. However, when your testing scenarios demand more intricate setups—like custom Keycloak realms and dynamic client configurations—you may find that a more hands-on approach is beneficial. While Quarkus provides powerful [&#8230;]...
++
+https://www.orpiske.net/2025/08/programmatic-keycloak-configuration-for-quarkus-integration-tests/[Read further^]
 Introducing Wanaku (2025-03-03)::
 Today me and my colleagues are introducing Wanaku, the first open-source Model Context Protocol (MCP) Router! Wanaku aims to provide unified access, routing &#38; resource management capabilities for your organization and your AI Agents. The project is built on the solid foundations provided by Apache Camel and Quarkus. Our main goal is to provide a [&#8230;]...
 +
 https://www.orpiske.net/2025/03/introducing-wanaku/[Read further^]
-Stream search engine (2024-01-19)::
-If you are looking for a stream URL (i.e.: for radios) and don&#8217;t know where to look for it, you can use this StreamURL Search engine....
-+
-https://www.orpiske.net/2024/01/stream-search-engine/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
