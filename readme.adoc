@@ -29,14 +29,14 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
+The Mentor’s Mindset: The Secret to Making AI Work for You (2025-09-18)::
+I see it all the time on tech forums and social media: smart, experienced people complaining that AI models and agents just don&#8217;t work for them. This always surprises me, because my experience has been the exact opposite. I feel like I&#8217;m getting great value from these tools, especially in automating mundane tasks. A good [&#8230;]...
++
+https://www.orpiske.net/2025/09/the-secret-to-making-ai-work-treat-it-like-a-junior/[Read further^]
 Programmatic Keycloak Configuration for Quarkus Integration Tests (2025-08-01)::
 Programmatic Keycloak Configuration for Quarkus Integration Tests Quarkus offers an incredible testing framework, and its devservices feature is fantastic for getting applications up and running quickly. However, when your testing scenarios demand more intricate setups—like custom Keycloak realms and dynamic client configurations—you may find that a more hands-on approach is beneficial. While Quarkus provides powerful [&#8230;]...
 +
 https://www.orpiske.net/2025/08/programmatic-keycloak-configuration-for-quarkus-integration-tests/[Read further^]
-Introducing Wanaku (2025-03-03)::
-Today me and my colleagues are introducing Wanaku, the first open-source Model Context Protocol (MCP) Router! Wanaku aims to provide unified access, routing &#38; resource management capabilities for your organization and your AI Agents. The project is built on the solid foundations provided by Apache Camel and Quarkus. Our main goal is to provide a [&#8230;]...
-+
-https://www.orpiske.net/2025/03/introducing-wanaku/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
