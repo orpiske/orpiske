@@ -1,15 +1,15 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//REPOS mavencentral,jitpack
+//REPOS mavencentral
 //DEPS io.quarkus:quarkus-bom:${quarkus.version:3.33.2}@pom
 //DEPS io.quarkus:quarkus-qute
-//DEPS https://github.com/w3stling/rssreader/tree/v2.5.0
+//DEPS com.apptasticsoftware:rssreader:3.9.3
 //DEPS io.quarkus:quarkus-rest-client
 //DEPS io.quarkus:quarkus-rest-client-jackson
 
 //JAVA 17+
 
-import com.apptastic.rssreader.Item;
-import com.apptastic.rssreader.RssReader;
+import com.apptasticsoftware.rssreader.Item;
+import com.apptasticsoftware.rssreader.RssReader;
 import io.quarkus.qute.Engine;
 import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
