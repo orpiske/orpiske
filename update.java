@@ -1,12 +1,12 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //REPOS mavencentral,jitpack
-//DEPS io.quarkus:quarkus-bom:${quarkus.version:2.2.0.CR1}@pom
+//DEPS io.quarkus:quarkus-bom:${quarkus.version:3.33.2}@pom
 //DEPS io.quarkus:quarkus-qute
 //DEPS https://github.com/w3stling/rssreader/tree/v2.5.0
-//DEPS io.quarkus:quarkus-rest-client-reactive
-//DEPS io.quarkus:quarkus-rest-client-reactive-jackson
+//DEPS io.quarkus:quarkus-rest-client
+//DEPS io.quarkus:quarkus-rest-client-jackson
 
-//JAVA 16+
+//JAVA 17+
 
 import com.apptastic.rssreader.Item;
 import com.apptastic.rssreader.RssReader;
@@ -21,9 +21,9 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.QueryParam;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.QueryParam;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
 @QuarkusMain
