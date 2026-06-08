@@ -29,18 +29,22 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
-The Mentor’s Mindset: The Secret to Making AI Work for You (2025-09-18)::
-I see it all the time on tech forums and social media: smart, experienced people complaining that AI models and agents just don&#8217;t work for them. This always surprises me, because my experience has been the exact opposite. I feel like I&#8217;m getting great value from these tools, especially in automating mundane tasks. A good [&#8230;]...
+Migrating from WordPress to Quarkus Roq (2026-06-06)::
+A practical look at what it took to move this site from WordPress to Quarkus Roq, from SQL dump to aliases, feeds, and tag pages....
 +
-https://www.orpiske.net/2025/09/the-secret-to-making-ai-work-treat-it-like-a-junior/[Read further^]
-Programmatic Keycloak Configuration for Quarkus Integration Tests (2025-08-01)::
-Programmatic Keycloak Configuration for Quarkus Integration Tests Quarkus offers an incredible testing framework, and its devservices feature is fantastic for getting applications up and running quickly. However, when your testing scenarios demand more intricate setups—like custom Keycloak realms and dynamic client configurations—you may find that a more hands-on approach is beneficial. While Quarkus provides powerful [&#8230;]...
+https://orpiske.net/posts/migrating-from-wordpress-to-quarkus-roq/[Read further^]
+Wanaku 0.1.3 and the road to 0.2.0 (2026-06-07)::
+Wanaku 0.1.3 is out with useful tooling and stability improvements, and I am already thinking about where 0.2.0 should go next....
 +
-https://www.orpiske.net/2025/08/programmatic-keycloak-configuration-for-quarkus-integration-tests/[Read further^]
+https://orpiske.net/posts/wanaku-0-1-3-and-the-road-to-0-2-0/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
 Apresentando: Wanaku (2025-03-03)::
-Hoje estamos apresentando o projeto Wanaku, um roteador de código aberto para o protocolo MCP (Model Context Protocol). O Wanaku tem como objetivo fornecer acesso unificado, roteamento e recursos de gerenciamento para sua organização e seus agentes de IA. O projeto é construído sobre as bases sólidas fornecidas pelo Apache Camel e Quarkus. Nosso principal [&#8230;]...
+<p></p><div style="margin-top: 50px; font-style: italic;"><strong><a href="https://angusyoung.org/posts/apresentando-wanaku/">Keep reading</a>.</strong></div><br /> <br />...
 +
-https://www.angusyoung.org/2025/03/03/apresentando-wanaku/[Read further^]
+https://angusyoung.org/posts/apresentando-wanaku/[Read further^]
+Migrando do WordPress para o Quarkus Roq (2026-06-06)::
+Um relato prático sobre o que foi necessário para mover este site do WordPress para o Quarkus Roq, do dump SQL até aliases, feeds e páginas de tags....
++
+https://angusyoung.org/posts/migrando-do-wordpress-para-o-quarkus-roq/[Read further^]
