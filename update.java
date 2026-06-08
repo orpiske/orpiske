@@ -63,8 +63,8 @@ public class update implements QuarkusApplication {
                 He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
                 """;
 
-        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed", 1);
-        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed", 2);
+        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed.xml", 1);
+        Collection<Item> sortedEn = getPosts("https://orpiske.net/feed.xml", 2);
 
         Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)
