@@ -20,7 +20,7 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
 
 {#for post in postsEn}
 {post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
-{post.description.get()}...
+{#if post.description.isPresent()}{post.description.get()}...{/if}
 +
 {post.link.get()}[Read further^]
 {/for}
@@ -28,8 +28,8 @@ image:https://github.com/maxandersen/maxandersen/workflows/Update%20README/badge
 ## ✍️ Postagens recentes em Português:
 
 {#for post in postsPt}
-{post.title.get()} ({post.pubDateZonedDateTime.get().format('YYYY-MM-dd')})::
-{post.description.get()}...
+{post.title.get()} ({post.pubDateZonedDateTime().get().format('YYYY-MM-dd')})::
+{#if post.description.isPresent()}{post.description.get()}...{/if}
 +
 {post.link.get()}[Read further^]
 {/for}

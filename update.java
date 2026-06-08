@@ -13,11 +13,6 @@ import com.apptastic.rssreader.RssReader;
 import io.quarkus.qute.Engine;
 import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
-import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
-
-import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.QueryParam;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collection;
@@ -26,6 +21,10 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import javax.inject.Inject;
+import javax.ws.rs.GET;
+import javax.ws.rs.QueryParam;
+import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
 @QuarkusMain
 public class update implements QuarkusApplication {
@@ -35,44 +34,56 @@ public class update implements QuarkusApplication {
 
     // static public class Items{}
 
-    public Collection<Item> getPosts(String feedUrl, int limit) throws Exception {
-        Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder());
+    public Collection<Item> getPosts(String feedUrl, int limit)
+        throws Exception {
+        Collection<Item> sorted = new PriorityQueue<>(
+            Collections.reverseOrder()
+        );
         RssReader reader = new RssReader();
 
         Stream<Item> rssFeed = reader.read(feedUrl);
+
         sorted.addAll(rssFeed.limit(limit).collect(Collectors.toList()));
+        sorted
+            .stream()
+            .forEach(i ->
+                System.out.println("Item = " + i.getDescription().toString())
+            );
+        // System.out.println("rss feed sorted = " + );
         return sorted;
     }
 
-   // @RestClient
-   // PlaylistService playlistService;
-
     public int run(String... args) throws Exception {
-
         String bio = """
-                Otavio works as a Principal Software Engineer - Red Hat at IBM. He is currently focusing his work on all things related to https://camel.apache.org[Apache Camel] :camel: and https://wanaku.ai[Wanaku MCP] :llama:. 
+            Otavio works as a Principal Software Engineer - Red Hat at IBM. He is currently focusing his work on all things related to https://camel.apache.org[Apache Camel] :camel: and https://wanaku.ai[Wanaku MCP] :llama:.
 
-                He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate :heart: about these topics.
+            He has been working with messaging, integration, cloud and testing for more than 15 years. He continues to be passionate :heart: about these topics.
 
-                Posts about his experiences and troubles with computers, ocasionally appear on his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
+            Posts about his experiences and troubles with computers, ocasionally appear on his blogs in https://orpiske.net[English] and https://angusyoung.org[Portuguese].
 
-                He is excited about Open Source, https://www.orpiske.net/talks/[speaks regularly] at conferences and contributes all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to https://getfedora.org[Fedora], https://gentoo.org[Gentoo], https://www.eclipse.org/paho/[Eclipse Paho], https://activemq.apache.org[Apache ActiveMQ] and others in the past.
+            He is excited about Open Source, https://www.orpiske.net/talks/[speaks regularly] at conferences and contributes all sorts of projects. He is a regular committer at the https://camel.apache.org[Apache Camel] project, and makes or has made sporadic contributions to https://getfedora.org[Fedora], https://gentoo.org[Gentoo], https://www.eclipse.org/paho/[Eclipse Paho], https://activemq.apache.org[Apache ActiveMQ] and others in the past.
 
-                He can be found on BlueSky at https://bsky.app/profile/orpiske.net[@orpiske.net], on X (Twitter) as https://twitter.com/otavio021[@otavio021],  and on Mastodon as https://toot.community/@orpiske[@orpiske@toot.community], speaking in English :uk: and Portuguese :brazil: about technology, science and life. 
-            
-                He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
-                """;
+            He can be found on BlueSky at https://bsky.app/profile/orpiske.net[@orpiske.net], on X (Twitter) as https://twitter.com/otavio021[@otavio021],  and on Mastodon as https://toot.community/@orpiske[@orpiske@toot.community], speaking in English :uk: and Portuguese :brazil: about technology, science and life.
 
-        Collection<Item> sortedPt = getPosts("https://www.angusyoung.org/feed.xml", 1);
+            He maintains a professional profile on https://www.linkedin.com/in/orpiske/[LinkedIn].
+            """;
+
+        Collection<Item> sortedPt = getPosts(
+            "https://angusyoung.org/feed.xml",
+            2
+        );
         Collection<Item> sortedEn = getPosts("https://orpiske.net/feed.xml", 2);
 
-        Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
+        Files.writeString(
+            Path.of("readme.adoc"),
+            qute
+                .parse(Files.readString(Path.of("template.adoc.qute")))
                 .data("bio", bio)
                 .data("postsEn", sortedEn)
                 .data("postsPt", sortedPt)
-                .render());
+                .render()
+        );
 
         return 0;
     }
 }
-
