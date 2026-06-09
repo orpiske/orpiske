@@ -41,7 +41,7 @@ https://orpiske.net/posts/wanaku-0-1-3-and-the-road-to-0-2-0/[Read further^]
 ## ✍️ Postagens recentes em Português:
 
 Apresentando: Wanaku (2025-03-03)::
-<p></p><div style="margin-top: 50px; font-style: italic;"><strong><a href="https://angusyoung.org/posts/apresentando-wanaku/">Keep reading</a>.</strong></div><br /> <br />...
+Hoje estamos apresentando o projeto Wanaku, um roteador de código aberto para o protocolo MCP (Model Context Protocol)....
 +
 https://angusyoung.org/posts/apresentando-wanaku/[Read further^]
 Migrando do WordPress para o Quarkus Roq (2026-06-06)::
