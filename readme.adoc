@@ -29,22 +29,22 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
-Migrating from WordPress to Quarkus Roq (2026-06-06)::
-A practical look at what it took to move this site from WordPress to Quarkus Roq, from SQL dump to aliases, feeds, and tag pages....
-+
-https://orpiske.net/posts/migrating-from-wordpress-to-quarkus-roq/[Read further^]
 Wanaku 0.1.3 and the road to 0.2.0 (2026-06-07)::
 Wanaku 0.1.3 is out with useful tooling and stability improvements, and I am already thinking about where 0.2.0 should go next....
 +
 https://orpiske.net/posts/wanaku-0-1-3-and-the-road-to-0-2-0/[Read further^]
+DevConf.CZ is almost here! (2026-06-16)::
+DevConf.CZ is almost here!...
++
+https://orpiske.net/posts/devconf-cz-is-almost-here/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
-Apresentando: Wanaku (2025-03-03)::
-Hoje estamos apresentando o projeto Wanaku, um roteador de código aberto para o protocolo MCP (Model Context Protocol)....
-+
-https://angusyoung.org/posts/apresentando-wanaku/[Read further^]
 Migrando do WordPress para o Quarkus Roq (2026-06-06)::
 Um relato prático sobre o que foi necessário para mover este site do WordPress para o Quarkus Roq, do dump SQL até aliases, feeds e páginas de tags....
 +
 https://angusyoung.org/posts/migrando-do-wordpress-para-o-quarkus-roq/[Read further^]
+DevConf.CZ está quase aí (2026-06-16)::
+Em dois dias a DevConf.CZ volta a Brno com talks sobre Linux, IA, open source, desenvolvimento e outros temas da pilha....
++
+https://angusyoung.org/posts/devconf-cz-est-quase-a/[Read further^]
