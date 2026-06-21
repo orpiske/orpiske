@@ -29,14 +29,14 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
-Wanaku 0.1.3 and the road to 0.2.0 (2026-06-07)::
-Wanaku 0.1.3 is out with useful tooling and stability improvements, and I am already thinking about where 0.2.0 should go next....
-+
-https://orpiske.net/posts/wanaku-0-1-3-and-the-road-to-0-2-0/[Read further^]
 DevConf.CZ is almost here! (2026-06-16)::
 DevConf.CZ is almost here!...
 +
 https://orpiske.net/posts/devconf-cz-is-almost-here/[Read further^]
+Java Development on Haiku in 2026 (2026-06-20)::
+A short update on Java development on Haiku, covering OpenJDK 24, IntelliJ IDEA, and running Wanaku....
++
+https://orpiske.net/posts/java-development-on-haiku-in-2026/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
