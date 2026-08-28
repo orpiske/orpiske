@@ -29,14 +29,14 @@ He maintains a professional profile on https://www.linkedin.com/in/orpiske/[Link
 
 ## ✍️ Most recent blog posts in English:
 
-DevConf.CZ is almost here! (2026-06-16)::
-DevConf.CZ is almost here!...
-+
-https://orpiske.net/posts/devconf-cz-is-almost-here/[Read further^]
 Java Development on Haiku in 2026 (2026-06-20)::
 A short update on Java development on Haiku, covering OpenJDK 24, IntelliJ IDEA, and running Wanaku....
 +
 https://orpiske.net/posts/java-development-on-haiku-in-2026/[Read further^]
+Building a GitHub Coding Bot with botdo and Apitomy Axiom (2026-08-28)::
+How to create a GitHub coding bot using botdo and Apitomy Axiom....
++
+https://orpiske.net/posts/building-a-github-coding-bot-with-botdo-and-apitomy-axiom/[Read further^]
 
 ## ✍️ Postagens recentes em Português:
 
